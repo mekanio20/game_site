@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <button class="container__again" id="again">Tazeden oyna</button>
+            <p>(1-100 aralygy)</p>
+        </div>
+        <h1 class="container__title">Random sany tapyn!</h1>
+        <p id="secretNumber" class="container__secret">?</p>
+    </header>
+    <main class="main">
+        <section class="main__left">
+            <input type="number" class="main__input" id="inpt">
+            <button type="button" class="main__button" id="btn">Barla</button>
+        </section>
+        <section class="main__right">
+            <p id="message">Sany girizin...</p>
+            <div class="main__scores">
+                <p>Dereje: <span id="score">0</span></p>
+                <p>In yokary dereje: <span id="highscore">0</span></p>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
